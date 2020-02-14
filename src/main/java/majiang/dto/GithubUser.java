@@ -37,4 +37,14 @@ public class GithubUser {
     public void setBio(String bio) {
         this.bio = bio;
     }
+
+    @Override
+    public String toString() {
+        return "GithubUser{" +
+                "login='" + login + '\'' +
+                ", name='" + name + '\'' +
+                ", id=" + id +
+                ", bio='" + bio + '\'' +
+                '}';
+    }
 }
